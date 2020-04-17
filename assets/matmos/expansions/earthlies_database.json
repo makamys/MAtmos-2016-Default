@@ -4,7 +4,7 @@
       "sheet": "scan_large_p1k",
       "index": "minecraft:air",
       "symbol": "GREATER",
-      "value": "999"
+      "value": "300"
     },
     "Air is tight 35%": {
       "sheet": "scan_small_p1k",
@@ -234,6 +234,18 @@
       "symbol": "GREATER",
       "value": "8"
     },
+    "User does not want high altitude ambiences": {
+      "sheet": "meta_option",
+      "index": "altitudes_high",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
+    "User does not want low altitude ambiences": {
+      "sheet": "meta_option",
+      "index": "altitudes_low",
+      "symbol": "EQUAL",
+      "value": "0"
+    },
     "ZZZ DEBUG TRUE": {
       "sheet": "cb_pos",
       "index": "y",
@@ -289,7 +301,8 @@
       "no": [
         "In Aether (Assumption)",
         "In Nether",
-        "Receive Sunlight"
+        "Receive Sunlight",
+        "User does not want low altitude ambiences"
       ]
     },
     "Deep cave (32)": {
@@ -299,7 +312,8 @@
       "no": [
         "In Aether (Assumption)",
         "In Nether",
-        "Receive Sunlight"
+        "Receive Sunlight",
+        "User does not want low altitude ambiences"
       ]
     },
     "Digging in the Nether": {
@@ -339,7 +353,8 @@
         "Highlands (96)"
       ],
       "no": [
-        "Sunlight lower than 5/15"
+        "Sunlight lower than 5/15",
+        "User does not want high altitude ambiences"
       ]
     },
     "In Aether": {
@@ -478,7 +493,6 @@
         "Rocks (24 S)"
       ],
       "no": [
-        "Deep (32)",
         "Is Exposed to the Sky"
       ]
     },
@@ -1792,10 +1806,6 @@
         {
           "sheet": "scan_small",
           "index": "minecraft:netherrack"
-        },
-        {
-          "sheet": "scan_small",
-          "index": "minecraft:birch_fence"
         }
       ]
     },
