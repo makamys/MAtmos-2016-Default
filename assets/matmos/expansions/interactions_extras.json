@@ -1,0 +1,120 @@
+{
+  "condition": {
+    "In Minecart": {
+      "sheet": "legacy",
+      "index": "riding_minecart",
+      "symbol": "EQUAL",
+      "value": "1"
+    },
+    "Is Speedy": {
+      "sheet": "ride_motion",
+      "index": "sqrt_xx_zz",
+      "symbol": "GREATER",
+      "value": "1500"
+    },
+    "Is very Speedy": {
+      "sheet": "ride_motion",
+      "index": "sqrt_xx_zz",
+      "symbol": "GREATER",
+      "value": "3000"
+    }
+  },
+  "set": {
+    "Is moving in Minecart": {
+      "yes": [
+        "In Minecart",
+        "Is Speedy"
+      ],
+      "no": []
+    },
+    "Is moving in Minecart fast": {
+      "yes": [
+        "In Minecart",
+        "Is very Speedy"
+      ],
+      "no": []
+    }
+  },
+  "machine": {
+    "Moving in Minecart": {
+      "allow": [
+        "Is moving in Minecart"
+      ],
+      "restrict": [
+        "Is moving in Minecart fast"
+      ],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Moving in Minecart",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 0.7,
+          "delay_max": 0.8,
+          "delay_start": 0.0
+        }
+      ]
+    },
+    "Moving in Minecart Fast": {
+      "allow": [
+        "Is moving in Minecart fast"
+      ],
+      "restrict": [],
+      "fadein": 0.0,
+      "fadeout": 0.0,
+      "delay_fadein": 0.0,
+      "delay_fadeout": 0.0,
+      "event": [
+        {
+          "event": "Moving in Minecart fast",
+          "vol_mod": 0.5,
+          "pitch_mod": 1.0,
+          "delay_min": 0.6,
+          "delay_max": 0.7,
+          "delay_start": 0.0
+        }
+      ]
+    }
+  },
+  "event": {
+    "Dummy": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.0,
+      "pitch_max": 1.0,
+      "distance": 0,
+      "path": []
+    },
+    "Moving in Minecart": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 0.98,
+      "pitch_max": 1.08,
+      "distance": 0,
+      "path": [
+        "matmos_extras/minecart1.ogg",
+        "matmos_extras/minecart2.ogg",
+        "matmos_extras/minecart3.ogg",
+        "matmos_extras/minecart4.ogg"
+      ]
+    },
+    "Moving in Minecart fast": {
+      "vol_min": 1.0,
+      "vol_max": 1.0,
+      "pitch_min": 1.25,
+      "pitch_max": 1.35,
+      "distance": 0,
+      "path": [
+        "matmos_extras/minecart1.ogg",
+        "matmos_extras/minecart2.ogg",
+        "matmos_extras/minecart3.ogg",
+        "matmos_extras/minecart4.ogg"
+      ]
+    }
+  },
+  "list": {},
+  "dynamic": {}
+}
