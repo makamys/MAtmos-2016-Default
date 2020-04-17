@@ -66,6 +66,12 @@
       "symbol": "GREATER",
       "value": "0"
     },
+    "Entering Fire": {
+      "sheet": "ply_general_delta",
+      "index": "burning",
+      "symbol": "GREATER",
+      "value": "0"
+    },
     "Falling Impact Fast": {
       "sheet": "ply_action_delta",
       "index": "fall_distance1k",
@@ -142,13 +148,15 @@
     },
     "Contact Lava (on)": {
       "yes": [
-        "Contact Lava"
+        "Contact Lava",
+        "Entering Fire"
       ],
       "no": []
     },
     "Contact Lava Flowing (on)": {
       "yes": [
-        "Contact Lava (Flowing)"
+        "Contact Lava (Flowing)",
+        "Entering Fire"
       ],
       "no": []
     },
