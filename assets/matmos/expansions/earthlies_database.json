@@ -43,16 +43,16 @@
       "value": "32"
     },
     "Highlands (96)": {
-      "sheet": "_DYNAMIC",
-      "index": "Highands (96)",
+      "sheet": "cb_pos",
+      "index": "y",
       "symbol": "GREATER",
-      "value": "0"
+      "value": "96"
     },
     "Highplains (80)": {
-      "sheet": "_DYNAMIC",
-      "index": "Highplains (80)",
+      "sheet": "cb_pos",
+      "index": "y",
       "symbol": "GREATER",
-      "value": "0"
+      "value": "80"
     },
     "In Aether (Assumption)": {
       "sheet": "w_general",
@@ -965,7 +965,7 @@
       "event": [
         {
           "event": "Wind, trees",
-          "vol_mod": 0.3,
+          "vol_mod": 0.2,
           "pitch_mod": 1.0,
           "delay_min": 8.0,
           "delay_max": 24.0,
@@ -990,7 +990,7 @@
       "event": [
         {
           "event": "Wind, trees",
-          "vol_mod": 0.8,
+          "vol_mod": 0.5,
           "pitch_mod": 1.0,
           "delay_min": 6.0,
           "delay_max": 17.0,
@@ -1034,7 +1034,7 @@
       "event": [
         {
           "event": "Wind, trees",
-          "vol_mod": 0.5,
+          "vol_mod": 0.2,
           "pitch_mod": 1.0,
           "delay_min": 2.0,
           "delay_max": 9.0,
@@ -1042,7 +1042,7 @@
         },
         {
           "event": "Wind, very strong",
-          "vol_mod": 0.7,
+          "vol_mod": 0.45,
           "pitch_mod": 1.0,
           "delay_min": 1.0,
           "delay_max": 2.5,
@@ -1296,7 +1296,7 @@
       "event": [
         {
           "event": "Wind, very strong",
-          "vol_mod": 0.7,
+          "vol_mod": 0.3,
           "pitch_mod": 1.0,
           "delay_min": 1.0,
           "delay_max": 2.5,
@@ -1304,7 +1304,7 @@
         },
         {
           "event": "Wind, very variable",
-          "vol_mod": 0.5,
+          "vol_mod": 0.4,
           "pitch_mod": 1.0,
           "delay_min": 6.0,
           "delay_max": 9.0,
@@ -1361,8 +1361,8 @@
       ]
     },
     "Bad wind": {
-      "vol_min": 0.4,
-      "vol_max": 0.5,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.1,
       "pitch_max": 0.7,
       "distance": 0,
@@ -1609,8 +1609,8 @@
       ]
     },
     "Wind, trees": {
-      "vol_min": 0.7,
-      "vol_max": 0.5,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.9,
       "pitch_max": 1.1,
       "distance": 0,
@@ -1622,8 +1622,8 @@
       ]
     },
     "Wind, very strong": {
-      "vol_min": 0.2,
-      "vol_max": 0.5,
+      "vol_min": 1.0,
+      "vol_max": 1.0,
       "pitch_min": 0.8,
       "pitch_max": 1.1,
       "distance": 0,
@@ -1685,30 +1685,6 @@
   },
   "list": {},
   "dynamic": {
-    "Highands (96)": {
-      "entries": [
-        {
-          "sheet": "cb_pos",
-          "index": "y"
-        },
-        {
-          "sheet": "legacy_configvars",
-          "index": "1"
-        }
-      ]
-    },
-    "Highplains (80)": {
-      "entries": [
-        {
-          "sheet": "legacy_configvars",
-          "index": "0"
-        },
-        {
-          "sheet": "cb_pos",
-          "index": "y"
-        }
-      ]
-    },
     "Iceland (Large)": {
       "entries": [
         {
