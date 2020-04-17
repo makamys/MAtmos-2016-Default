@@ -3,27 +3,32 @@
 		{
 			"uniquename" : "eu.ha3.default.earthlies",
 			"friendlyname" : "Default 2016: Earthlies",
-			"pointer" : "expansions/earthlies_database.json"
+			"pointer" : "expansions/earthlies_database.json",
+			"volumemodifier" : 0.3
 		},
 		{
 			"uniquename" : "eu.ha3.default.environments",
 			"friendlyname" : "Default 2016: Environments",
-			"pointer" : "expansions/interactions_environments.json"
+			"pointer" : "expansions/interactions_environments.json",
+			"volumemodifier" : 0.3
 		},
 		{
 			"uniquename" : "eu.ha3.default.extras",
 			"friendlyname" : "Default 2016: Extras",
-			"pointer" : "expansions/interactions_extras.json"
+			"pointer" : "expansions/interactions_extras.json",
+			"volumemodifier" : 0.3
 		},
 		{
 			"uniquename" : "eu.ha3.default.itemswitches",
 			"friendlyname" : "Default 2016: Itemswitches",
-			"pointer" : "expansions/interactions_itemswitches.json"
+			"pointer" : "expansions/interactions_itemswitches.json",
+			"volumemodifier" : 0.3
 		},
 		{
 			"uniquename" : "eu.ha3.default.weapons",
 			"friendlyname" : "Default 2016: Weapons",
-			"pointer" : "expansions/interactions_weapons.json"
+			"pointer" : "expansions/interactions_weapons.json",
+			"volumemodifier" : 0.3
 		}
 	]
 }
