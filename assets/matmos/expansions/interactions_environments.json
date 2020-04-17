@@ -373,7 +373,8 @@
         "vol": 0.5,
         "pitch": 1.0,
         "looping": true,
-        "pause": true
+        "pause": true,
+        "underwater": true
       }
     }
   },
