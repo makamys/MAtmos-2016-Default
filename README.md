@@ -7,3 +7,6 @@ The Git repository only tracks the code; the sound files can be found in the rel
 
 ## Demo video
 [![](http://img.youtube.com/vi/Z4Zu4kvyDHU/0.jpg)](http://www.youtube.com/watch?v=Z4Zu4kvyDHU "")
+
+# License
+The soundpack's code is licensed under WTFPLv2.
