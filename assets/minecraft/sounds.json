@@ -345,6 +345,12 @@
       "matmos_interactions/bow_flame_c"
     ]
   },
+  "matmos_interactions.bow_draw": {
+    "category": "ambient",
+    "sounds": [
+      "matmos_interactions/bow_draw"
+    ]
+  },
   "matmos_interactions.bow_stretch_a": {
     "category": "ambient",
     "sounds": [
