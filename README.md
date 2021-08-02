@@ -1,7 +1,7 @@
 [![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/MAtmos-2016-Default/releases)
 
 # MAtmos default soundpack 2016
-The original MAtmos soundpack from 2012, updated to work on the latest versions of MAtmos. Originally made by Hurricaaane.
+The original MAtmos soundpack from 2012, updated to work on the latest versions of MAtmos. Originally created by [Hurricaaane](https://github.com/Hurricaaane).
 
 The Git repository only tracks the code; the sound files can be found in the releases.
 
