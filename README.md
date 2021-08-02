@@ -1,4 +1,5 @@
-[![Download](https://img.shields.io/badge/-soundpack%20download-brightgreen)](https://github.com/makamys/MAtmos-2016-Default/releases)
+[![releases](https://img.shields.io/badge/-⬇%20releases-brightgreen)](https://github.com/makamys/MAtmos-2016-Default/releases)
+[![CurseForge](https://shields.io/badge/CurseForge-555555?logo=curseforge)](https://www.curseforge.com/minecraft/texture-packs/matmos-2016-default)
 
 # MAtmos default soundpack 2016
 The original MAtmos soundpack from 2012, updated to work on the latest versions of MAtmos. Originally created by [Hurricaaane](https://github.com/Hurricaaane).
