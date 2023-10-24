@@ -43,9 +43,9 @@
       "value": "0"
     },
     "Interact Critical Hit (2)": {
-      "sheet": "ply_general",
-      "index": "on_ground",
-      "symbol": "EQUAL",
+      "sheet": "ply_action_delta",
+      "index": "fall_distance1k",
+      "symbol": "NOT_EQUAL",
       "value": "0"
     },
     "Interact Critical Hit (3)": {
@@ -60,11 +60,17 @@
       "symbol": "EQUAL",
       "value": "0"
     },
-    "Interact Hit": {
+    "Interact Mid-Swing": {
       "sheet": "ply_action",
       "index": "swing_progress16",
       "symbol": "GREATER",
-      "value": "1"
+      "value": "0"
+    },
+    "Interact Mouse over a Block": {
+      "sheet": "legacy_hitscan",
+      "index": "mouse_over_what_remapped",
+      "value": "0",
+      "symbol": "EQUAL"
     },
     "Interact Mouse over an Entity": {
       "sheet": "legacy_hitscan",
@@ -80,7 +86,7 @@
     },
     "Interact Swing": {
       "sheet": "ply_action",
-      "index": "swing_progress16",
+      "index": "swinging",
       "symbol": "NOT_EQUAL",
       "value": "0"
     },
@@ -113,12 +119,6 @@
       "index": "player_current_item_as_number",
       "symbol": "IN_LIST",
       "value": "Tool Soft"
-    },
-    "Is looking at an interactible": {
-      "sheet": "legacy_hitscan",
-      "index": "block_as_number",
-      "symbol": "IN_LIST",
-      "value": "Interactibles"
     },
     "Is underwater": {
       "sheet": "ply_stats",
@@ -168,16 +168,18 @@
         "Interact Mouse over an Entity",
         "Interact Swing"
       ],
-      "no": []
+      "no": [
+        "Interact Mid-Swing"
+      ]
     },
     "Interact Sword Sharp Hit": {
       "yes": [
-        "Interact Hit",
+        "Interact Swing",
         "Interact Sword Sharp",
-        "Interact Target"
+        "Interact Mouse over an Entity"
       ],
       "no": [
-        "Is looking at an interactible"
+        "Interact Mid-Swing"
       ]
     },
     "Interact Sword Sharp Swing": {
@@ -185,18 +187,16 @@
         "Interact Swing",
         "Interact Sword Sharp"
       ],
-      "no": [
-        "Is looking at an interactible"
-      ]
+      "no": []
     },
     "Interact Sword Soft Hit": {
       "yes": [
-        "Interact Hit",
+        "Interact Swing",
         "Interact Sword Soft",
-        "Interact Target"
+        "Interact Mouse over an Entity"
       ],
       "no": [
-        "Is looking at an interactible"
+        "Interact Mid-Swing"
       ]
     },
     "Interact Sword Soft Swing": {
@@ -204,9 +204,7 @@
         "Interact Swing",
         "Interact Sword Soft"
       ],
-      "no": [
-        "Is looking at an interactible"
-      ]
+      "no": []
     },
     "Interact Tool Sharp Swing to Miss": {
       "yes": [
@@ -717,89 +715,6 @@
     }
   },
   "list": {
-    "Interactibles": {
-      "entries": [
-        "107",
-        "116",
-        "117",
-        "118",
-        "120",
-        "122",
-        "130",
-        "131",
-        "140",
-        "143",
-        "23",
-        "26",
-        "30",
-        "54",
-        "58",
-        "61",
-        "62",
-        "64",
-        "69",
-        "71",
-        "77",
-        "84",
-        "92",
-        "93",
-        "94",
-        "95",
-        "96"
-      ]
-    },
-    "Interactibles__AS_BLOCK": {
-      "entries": [
-        "minecraft:bed",
-        "minecraft:brewing_stand",
-        "minecraft:cake",
-        "minecraft:cauldron",
-        "minecraft:chest",
-        "minecraft:crafting_table",
-        "minecraft:dispenser",
-        "minecraft:dragon_egg",
-        "minecraft:enchanting_table",
-        "minecraft:end_portal_frame",
-        "minecraft:ender_chest",
-        "minecraft:fence_gate",
-        "minecraft:flower_pot",
-        "minecraft:furnace",
-        "minecraft:iron_door",
-        "minecraft:jukebox",
-        "minecraft:lever",
-        "minecraft:lit_furnace",
-        "minecraft:powered_repeater",
-        "minecraft:stained_glass",
-        "minecraft:stone_button",
-        "minecraft:trapdoor",
-        "minecraft:tripwire_hook",
-        "minecraft:unpowered_repeater",
-        "minecraft:web",
-        "minecraft:wooden_button",
-        "minecraft:wooden_door"
-      ]
-    },
-    "Interactibles__AS_ITEM": {
-      "entries": [
-        "minecraft:chest",
-        "minecraft:crafting_table",
-        "minecraft:dispenser",
-        "minecraft:dragon_egg",
-        "minecraft:enchanting_table",
-        "minecraft:end_portal_frame",
-        "minecraft:ender_chest",
-        "minecraft:fence_gate",
-        "minecraft:furnace",
-        "minecraft:jukebox",
-        "minecraft:lever",
-        "minecraft:stained_glass",
-        "minecraft:stone_button",
-        "minecraft:trapdoor",
-        "minecraft:tripwire_hook",
-        "minecraft:web",
-        "minecraft:wooden_button"
-      ]
-    },
     "Sword Sharp": {
       "entries": [
         "267",

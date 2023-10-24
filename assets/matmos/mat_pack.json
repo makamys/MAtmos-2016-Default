@@ -1,6 +1,6 @@
 {
 	"type"	: "pack_matmos",
-	"engineversion"	: 0,
+	"engineversion"	: 36,
 	"metadata"	: {
 		"name"	: "MAtmos default pack",
 		"author"	: "Ha3",

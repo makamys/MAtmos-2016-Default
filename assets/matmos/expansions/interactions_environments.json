@@ -112,7 +112,7 @@
       "sheet": "ply_motion",
       "index": "sqrt_xx_zz",
       "symbol": "GREATER",
-      "value": "150"
+      "value": "175"
     },
     "No Y Motion delta": {
       "sheet": "ply_motion_delta",
