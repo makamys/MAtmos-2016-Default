@@ -4,6 +4,8 @@
 # MAtmos default soundpack 2016
 The original MAtmos soundpack from 2012, updated to work on the latest versions of MAtmos. Originally created by [Hurricaaane](https://github.com/Hurricaaane).
 
+Requires MAtmos 36 or higher as of 1.3.
+
 The Git repository only tracks the code; the sound files can be found in the releases.
 
 ## Demo video
