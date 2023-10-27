@@ -182,10 +182,20 @@
         "Interact Mid-Swing"
       ]
     },
-    "Interact Sword Sharp Swing": {
+    "Interact Sword Sharp Swing Non-Block": {
+      "yes": [
+        "Interact Mid-Swing",
+        "Interact Sword Sharp"
+      ],
+      "no": [
+        "Interact Mouse over a Block"
+      ]
+    },
+    "Interact Sword Sharp Swing Block": {
       "yes": [
         "Interact Swing",
-        "Interact Sword Sharp"
+        "Interact Sword Sharp",
+        "Interact Mouse over a Block"
       ],
       "no": []
     },
@@ -199,10 +209,20 @@
         "Interact Mid-Swing"
       ]
     },
-    "Interact Sword Soft Swing": {
+    "Interact Sword Soft Swing Non-Block": {
+      "yes": [
+        "Interact Mid-Swing",
+        "Interact Sword Soft"
+      ],
+      "no": [
+        "Interact Mouse over a Block"
+      ]
+    },
+    "Interact Sword Soft Swing Block": {
       "yes": [
         "Interact Swing",
-        "Interact Sword Soft"
+        "Interact Sword Soft",
+        "Interact Mouse over a Block"
       ],
       "no": []
     },
@@ -373,7 +393,8 @@
     },
     "Interact Sword Sharp Swing": {
       "allow": [
-        "Interact Sword Sharp Swing"
+        "Interact Sword Sharp Swing Non-Block",
+        "Interact Sword Sharp Swing Block"
       ],
       "restrict": [
         "Is underwater"
@@ -417,7 +438,8 @@
     },
     "Interact Sword Soft Swing": {
       "allow": [
-        "Interact Sword Soft Swing"
+        "Interact Sword Soft Swing Block",
+        "Interact Sword Soft Swing Non-Block"
       ],
       "restrict": [
         "Is underwater"
@@ -439,8 +461,10 @@
     },
     "Interact Sword Swing UW": {
       "allow": [
-        "Interact Sword Sharp Swing",
-        "Interact Sword Soft Swing"
+        "Interact Sword Sharp Swing Non-Block",
+        "Interact Sword Sharp Swing Block",
+        "Interact Sword Soft Swing Non-Block",
+        "Interact Sword Soft Swing Block"
       ],
       "restrict": [
         "Is out of water"
